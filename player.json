@@ -1,0 +1,123 @@
+var player =
+     [{  "key": 1001,
+         "name": "Shakib Al Hasan",
+         "title": "Allrounder",
+         "salary": 500000,
+         "img":"https://media-eng.dhakatribune.com/uploads/2019/07/shakib-1563210587181.jpg"
+     },{
+         "key": 1002,
+         "name": "Shachin Teldulkar",
+         "title": "Right Hand Batsman",
+         "salary": 600000,
+"img":"https://lh3.googleusercontent.com/proxy/HqIPnLBotKJ2FzJBg409p37ayvbCsmoqJf5JpDjyCV0yF9WUuQBIsSmhJQyAFmF9UI9xlmHmlrIpopqitcNzuNbC13AEOcEysZI94kwJq48muvCTn-WnqnuHZXs"
+     },{
+         "key": 1003,
+         "name": "Virat Kholi",
+         "title": "Right Hand Batsman",
+         "salary": 872000,
+         "img":"https://etimg.etb2bimg.com/photo/79775145.cms"
+     },{
+         "key": 1004,
+         "name": "Shane Watson",
+         "title": "Right Hand Batsman & Bowller",
+         "salary": 960000,
+         "img":"https://dontgetserious.com/wp-content/uploads/2015/09/how-much-does-Shane-Watson-earn.jpg"
+     },{
+         "key": 1005,
+         "name": "Shawrav Ganguli",
+         "title": "Left Hand Batsman",
+         "salary": 342000,
+         "img":"https://prod-c2i.s3.amazonaws.com/articles/15941904225f056a567fa23.jpg"
+     },{
+         "key": 1006,
+         "name": "MS Dhoni",
+         "title": "Right Hand Batsman & Keeper",
+         "salary": 280000,
+         "img":"https://imagevars.gulfnews.com/2019/06/07/884880-01-08--Read-Only-_16b32d6ebbe_large.jpg"
+     },{
+         "key": 1007,
+         "name": "Mashrafi Bin Murtoza",
+         "title": "Right Hand Fast Bowller",
+         "salary": 320000,
+         "img":"https://ss.thgim.com/cricket/article27263506.ece/alternates/FREE_380/mashrafe-mortazajpg"
+     },{
+         "key": 1008,
+         "name": "Md Rubel Hossain",
+         "title": "Right Hand Fast Bowller",
+         "salary": 220000,
+         "img":"https://sportstar.thehindu.com/cricket/article27264498.ece/BINARY/rubel-hossainjpg"
+     },{
+         "key": 1009,
+         "name": "Md Mustafiz",
+         "title": "Left Hand Fast Bowller",
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6hNtCvME6YEK5d4NgdG_KANF_YoVhsPMQwYPxtJTXw7fXHMAWS_ToQt--ubOeHaEMNZw&usqp=CAU"
+     },{
+         "key": 1010,
+         "name": "Andre Russel",
+          "title": "Right Hand Batsman & Bowller",
+         "salary": 550000,
+         "img":"https://imagevars.gulfnews.com/2019/06/24/-Andre-Russell_16b8a2b9bd7_large.jpg"
+     },{
+         "key": 1011,
+         "name": "Criss Gyale",
+          "title": "Right Hand Batsman",
+         "salary": 1770000,
+         "img":"https://s1.stabroeknews.com/images/2019/10/chrisgayle11.jpg"
+     },{
+         "key": 1012,
+         "name": "David Warner",
+          "title": "Right Hand Batsman",
+         "salary": 900000,
+         "img":"https://static.toiimg.com/thumb/resizemode-4,width-400,msid-69842637/69842637.jpg"
+     },{
+         "key": 1013,
+         "name": "Maxwell",
+          "title": "Right Hand Batsman",
+         "salary": 800000,
+         "img":"https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/maxwellheadshot-min.jpg"
+     },{
+         "key": 1014,
+         "name": "Micheal Clark",
+          "title": "Right Hand Batsman & Bowller",
+         "salary": 1100000,
+         "img":"https://m.economictimes.com/thumb/msid-54953221,width-1200,height-900,resizemode-4,imgsize-59783/michael-clarke-reveals-the-dark-side-of-australian-cricket.jpg"
+     },{
+         "key": 1015,
+         "name": "Lasith Malinga",
+          "title": "Right Hand Fast Bowller",
+         "salary": 430000,
+         "img":"https://images.outlookindia.com/public/uploads/articles/2021/1/20/Malinga-Ball-AP_570_850.jpg"
+     },{
+         "key": 1016,
+         "name": "Angelo Mathews",
+          "title": "Right Hand Spinner Bowller",
+         "salary": 370000,
+         "img":"https://storage.cricingif.com/cig-live-images/player-images/13212.png"
+     },{ 
+         "key": 1017,
+         "name": "Trent Boult",
+          "title": "Left Hand Fast Bowler",
+         "salary": 590000,
+         "img":"https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/trentboultheadshot-min.jpg"
+     },{
+         "key": 1018,
+         "name": "Bredon Macculum",
+          "title": "Right Hand Batsman",
+         "salary": 770000,
+         "img":"https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/02/08/Pictures/cricket-nzl-sri_78d285b0-ce5a-11e5-a2fe-c1a20f4c7a81.jpg"
+     },{
+         "key": 1019,
+         "name": "Ross Taylor",
+          "title": "Right Hand Fast Bowller",
+         "salary": 770000,
+         "img":"https://st3.cricketcountry.com/wp-content/uploads/cricket/20140521033530.jpeg"
+     },{ 
+         "key": 1020,
+         "name": "Taskin Ahmed",
+          "title": "Right Hand Fast Bowller",
+         "salary": 375000,
+         "img":"https://cdn.wisden.com/wp-content/uploads/2017/11/GettyImages-688893434-e1520608434902.jpg"
+     }
+        
+         
+     ]
